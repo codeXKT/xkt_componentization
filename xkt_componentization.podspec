@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 	TODO: Add long description of the pod here.
                        DESC
 
-  spec.homepage     = "https://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@github.com/codeXKT/xkt_componentization"
+  spec.homepage     = "https://github.com/codeXKT/xkt_componentization"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
