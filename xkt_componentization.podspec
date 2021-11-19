@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "xkt_componentization"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.0"
   spec.summary      = "A short description of xkt_componentization."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 	TODO: Add long description of the pod here.
                        DESC
 
-  spec.homepage     = "https://github.com/codeXKT/xkt_componentization"
+  spec.homepage     = "https://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@github.com/codeXKT/xkt_componentization"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/codeXKT/xkt_componentization.git", :tag => "s.version.to_s" }
+  spec.source       = { :git => "https://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@github.com/codeXKT/xkt_componentization.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -116,6 +116,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
+    spec.frameworks = "Foundation","UIKit"
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
