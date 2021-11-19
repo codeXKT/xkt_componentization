@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://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@github.com/codeXKT/xkt_componentization.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "git@github.com:codeXKT/xkt_componentization.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
